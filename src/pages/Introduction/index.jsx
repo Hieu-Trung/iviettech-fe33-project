@@ -1,22 +1,27 @@
 import Slider from "react-slick"
-import slide1 from '../../image/slide/slide1.jpg'
-import slide2 from "../../image/slide/slide2.jpg";
-import slide3 from "../../image/slide/slide3.jpg";
-import slide4 from "../../image/slide/slide4.jpg";
-import slide5 from "../../image/slide/slide5.jpg";
-const Introduction = () => {
-    const styleSlider = {
-      className: "center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 500,
-    };
-    return (
-        <Slider {...styleSlider}>
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-        </Slider>
-    )
+import * as S from './style'
+const Introduction = () => {
+    const settings = {
+     dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000, 
+    };
+  return (
+    <S.SlideWrapper>
+      <Slider {...settings}>
+        <S.ImageSlide1Wrapper/>
+        <S.ImageSlide2Wrapper />
+        <S.ImageSlide3Wrapper />
+        <S.ImageSlide4Wrapper />
+        <S.ImageSlide5Wrapper/>
+      </Slider>
+    </S.SlideWrapper>
+  );
 }
 export default Introduction

@@ -1,6 +1,6 @@
 export const ROUTES = {
   USER: {
-    INTRODUCTION: "/NoiThatKhoaPham",
+    INTRODUCTION: "/",
     HOME: "/TrangChu",
   },
   ADMIN: {

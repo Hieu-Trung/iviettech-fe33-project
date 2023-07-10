@@ -9,18 +9,63 @@ export const HeaderWrapper = styled.div`
   justify-content: space-between;
   width: 100%;
   z-index: 99;
-  height: 80px;
-  background-color: #bfbfbf;
+  height: 55px;
+  background-color: #d9d9d9;
+  border-bottom: 1px solid #bfbfbf;
 `;
 
 export const StyleWrapper = styled.div`
-  color: #003eb3;
   font-size: 20px;
   margin: 0 10px;
   display: flex;
 `;
 
+export const TitleCompanyWrapper = styled.div`
+  display:  flex;
+  flex-direction:  column;
+  padding: 0 10px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+`;
+export const CompanyWrapper = styled.div`
+  font-size: 17px;
+  font-weight: 700;
+`;
+export const SloganCompanyWrapper = styled.div`
+  font-size: 15px;
+  font-weight: 500;
+`;
+export const DetailAboutWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 7px;
+`;
 export const TitleWrapper = styled.div`
- font-size: 15px;
- padding: 0 5px;
-`
+  font-size: 13px;
+  line-height: 16px;
+  color: #434343;
+  padding: 0 5px;
+  text-align: start;
+`;
+export const AboutWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-right: 2px solid #bfbfbf;
+  padding: 0 5px;
+  &:hover {
+    color: #1677ff;
+  }
+`;
+export const LoginWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 5px;
+  &:hover {
+    color: #1677ff;
+  }
+`;
