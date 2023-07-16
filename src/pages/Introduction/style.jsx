@@ -13,36 +13,79 @@ export const SlideWrapper = styled.div`
 
 export const ImageSlide1Wrapper = styled.div`
   background-image: url(${Slide1});
-  height: 450px;
+  min-height: 500px;
   background-size: 100% 100%;
   border-radius: 20px;
   overflow: hidden;
 `;
 export const ImageSlide2Wrapper = styled.div`
   background-image: url(${Slide2});
-  height: 450px;
+  height: 500px;
   background-size: 100% 100%;
   border-radius: 20px;
   overflow: hidden;
 `;
 export const ImageSlide3Wrapper = styled.div`
   background-image: url(${Slide3});
-  height: 450px;
+  height: 500px;
   background-size: 100% 100%;
   border-radius: 20px;
   overflow: hidden;
 `;
 export const ImageSlide4Wrapper = styled.div`
   background-image: url(${Slide4});
-  height: 450px;
+  height: 500px;
   background-size: 100% 100%;
   border-radius: 20px;
   overflow: hidden;
 `;
 export const ImageSlide5Wrapper = styled.div`
   background-image: url(${Slide5});
-  height: 450px;
+  height: 500px;
   background-size: 100% 100%;
   border-radius: 20px;
   overflow: hidden;
 `;
+export const TitleWrapper = styled.div`
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0;
+  color: #f5222d;
+`;
+
+export const TitleAboutWrapper = styled.div`
+  font-size: 30px;
+  color: #000000;
+  line-height: 24px;
+  text-align: start;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-weight: 600;
+`;
+export const ProcessWrapper = styled.div`
+  padding: 60px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: #000000;
+  line-height: 24px;
+  text-align: start;
+  font-weight: 600;
+`;
+
+export const AboutDetailWrapper = styled.div`
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  
+`;
+export const TitleDetailAboutWrapper = styled.div`
+ font-size: 20px;
+ line-height: 24px;
+ font-weight: 400;
+ letter-spacing: 3px;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+`;
+
