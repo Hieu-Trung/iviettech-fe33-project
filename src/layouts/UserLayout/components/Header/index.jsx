@@ -5,6 +5,8 @@ import {
   UserOutlined,
 } from "@ant-design/icons";
 import Logo from "../../../../image/logo.png";
+import { ROUTES } from "../../../../constants/routers";
+
 const Header = () => {
   return (
     <S.HeaderWrapper>
@@ -26,7 +28,7 @@ const Header = () => {
           </S.DetailAboutWrapper>
         </S.AboutWrapper>
         <S.AboutWrapper>
-          <EnvironmentOutlined/>
+          <EnvironmentOutlined />
           <S.DetailAboutWrapper>
             <S.TitleWrapper>Trường sơn - Hòa Thọ Tây</S.TitleWrapper>
             <S.TitleWrapper>Cẩm Lệ - Đà Nẵng</S.TitleWrapper>
@@ -34,7 +36,11 @@ const Header = () => {
         </S.AboutWrapper>
         <S.LoginWrapper>
           <UserOutlined />
-            <S.TitleWrapper>Đăng Nhập</S.TitleWrapper>
+          <S.TitleWrapper>
+            <S.LinkWrapper to={ROUTES.LOGIN}>
+              Đăng Nhập
+            </S.LinkWrapper>
+          </S.TitleWrapper>
         </S.LoginWrapper>
       </S.StyleWrapper>
     </S.HeaderWrapper>

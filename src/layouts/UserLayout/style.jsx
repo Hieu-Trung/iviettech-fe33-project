@@ -12,8 +12,10 @@ export const MainWrapper = styled.div`
 `;
 export const MainButtonWrapper = styled.div`
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 10px;
   padding: 5px;
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 `;

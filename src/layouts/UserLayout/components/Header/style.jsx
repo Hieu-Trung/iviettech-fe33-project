@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderWrapper = styled.div`
   position: fixed;
@@ -68,6 +69,14 @@ export const LoginWrapper = styled.div`
   cursor: pointer;
   padding: 0 5px;
   color: #ffffff;
+  &:hover {
+    color: #1677ff;
+  }
+`;
+
+export const LinkWrapper = styled(Link)`
+  color: #ffffff;
+  text-decoration: none;
   &:hover {
     color: #1677ff;
   }

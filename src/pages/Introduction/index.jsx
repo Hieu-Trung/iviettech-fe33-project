@@ -2,10 +2,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "animate.css/animate.min.css";
-import About from '../../image/About.jpg'
-import * as S from "./style";
-import { Fragment } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Fragment } from "react";
+
+
+import * as S from "./style";
+import Construction from "../Construction";
+
 const Introduction = () => {
   const settings = {
     dots: true,
@@ -36,19 +39,18 @@ const Introduction = () => {
       </ScrollAnimation>
       <S.AboutDetailWrapper>
         <ScrollAnimation animateIn="animate__fadeInLeft">
-          <img src={About} alt="about" width={600} height={300} />
+          <S.ImageAboutWrapper/>
         </ScrollAnimation>
         <S.TitleDetailAboutWrapper>
           <ScrollAnimation animateIn="animate__fadeInRight">
             Với kinh nghiệm về thiết kế hơn 15 năm trong thiết kế và hoàn thiện
-            nội thất cùng đội ngũ thiết kế chuyên nghiệp, Nội Thât Khoa Phạm
-            mang đến giải pháp toàn diện trong nội thất.
+            nội thất cùng đội ngũ thiết kế chuyên nghiệp,{" "}
+            <strong>Nội Thât Khoa Phạm</strong>
+            mang đến giải pháp toàn diện trong nội thất!...
           </ScrollAnimation>
         </S.TitleDetailAboutWrapper>
       </S.AboutDetailWrapper>
-      <ScrollAnimation animateIn="animate__fadeInDown">
-        <S.ProcessWrapper>Quy trình thiết kế hoàn thiện nội thất</S.ProcessWrapper>
-      </ScrollAnimation>
+      <Construction />
     </Fragment>
   );
 };

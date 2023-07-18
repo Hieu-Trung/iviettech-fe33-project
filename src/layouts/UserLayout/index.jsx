@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ChatBotMess from "./components/ChatBotMess";
+import ButtonConstruction from "./components/ConstructionButton";
 
 import * as S from "./style";
 const UserLayout = () => {
@@ -11,7 +12,8 @@ const UserLayout = () => {
       <S.MainWrapper>
         <Outlet />
         <S.MainButtonWrapper>
-          <ChatBotMess/>
+          <ChatBotMess />
+          <ButtonConstruction />
         </S.MainButtonWrapper>
       </S.MainWrapper>
       <Footer />

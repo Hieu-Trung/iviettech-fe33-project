@@ -4,12 +4,25 @@ import Slide2 from '../../image/slide/slide2.jpg'
 import Slide3 from "../../image/slide/slide3.jpg";
 import Slide4 from "../../image/slide/slide4.jpg";
 import Slide5 from "../../image/slide/slide5.jpg";
+import About from "../../image/About.jpg";
+
+
 export const SlideWrapper = styled.div`
   width: auto;
   overflow: hidden;
   padding: 20px;
-  
 `;
+
+export const ImageAboutWrapper = styled.div`
+  background-image: url(${About});
+  height: 300px;
+  width: 600px;
+  background-size: 100% 100%;
+  overflow: hidden;
+  filter: drop-shadow(0 0 0.75rem #8c8c8c);
+  border-radius: 20px;
+`;
+
 
 export const ImageSlide1Wrapper = styled.div`
   background-image: url(${Slide1});
@@ -61,15 +74,6 @@ export const TitleAboutWrapper = styled.div`
   text-align: start;
   padding-top: 50px;
   padding-left: 20px;
-  font-weight: 600;
-`;
-export const ProcessWrapper = styled.div`
-  padding: 60px;
-  padding-left: 20px;
-  font-size: 30px;
-  color: #000000;
-  line-height: 24px;
-  text-align: start;
   font-weight: 600;
 `;
 
