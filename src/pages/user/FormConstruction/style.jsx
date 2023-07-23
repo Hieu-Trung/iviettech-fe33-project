@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import ImageForm from "../../image/ImageForm.png";
+import ImageForm from "../../../image/ImageForm.png";
 
 export const FormConstructionWrapper = styled.div`
   padding: 0;

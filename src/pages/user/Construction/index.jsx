@@ -1,9 +1,9 @@
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Col, Collapse, Row } from "antd";
-import { ListStep1 } from "../../constants/constructions";
-import { ListStep2 } from "../../constants/constructions";
-import { ListStep3 } from "../../constants/constructions";
+import { ListStep1 } from "../../../constants/constructions";
+import { ListStep2 } from "../../../constants/constructions";
+import { ListStep3 } from "../../../constants/constructions";
 
 import * as S from "./style";
 import { Fragment } from "react";

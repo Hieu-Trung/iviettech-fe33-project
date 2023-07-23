@@ -7,7 +7,7 @@ import { Fragment } from "react";
 
 
 import * as S from "./style";
-import Construction from "../Construction";
+import Construction from "../user/Construction";
 
 const Introduction = () => {
   const settings = {

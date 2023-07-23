@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
-import ImgStep1 from "../../image/stepConstruction/imgStep1.jpg";
-import ImgStep2 from "../../image/stepConstruction/imgStep2.jpg";
-import ImgStep3 from "../../image/stepConstruction/imgStep3.jpg";
+import ImgStep1 from "../../../image/stepConstruction/imgStep1.jpg";
+import ImgStep2 from "../../../image/stepConstruction/imgStep2.jpg";
+import ImgStep3 from "../../../image/stepConstruction/imgStep3.jpg";
 
 export const TitleProcessWrapper = styled.div`
   padding: 60px;

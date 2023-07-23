@@ -2,12 +2,12 @@ import { Route, Routes } from "react-router-dom";
 
 import Introduction from "./pages/Introduction";
 import { ROUTES } from "./constants/routers";
-import Home from "./pages/Home";
+import Home from "./pages/user/Home";
 import UserLayout from "./layouts/UserLayout";
 import Login from "./pages/Login";
 import HeaderLogin from "./layouts/UserLayout/components/HeaderLogin";
 import Register from "./pages/Register";
-import FormConstruction from "./pages/FormConstruction";
+import FormConstruction from "./pages/user/FormConstruction";
 
 function App() {
   return (
