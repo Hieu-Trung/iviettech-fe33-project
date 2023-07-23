@@ -2,10 +2,11 @@ export const ROUTES = {
   USER: {
     INTRODUCTION: "/",
     HOME: "/TrangChu",
+    FORMCONSTRUCTION: "/TuVanVaBaoGia"
   },
   ADMIN: {
-    DASHBOARD: "admin/dashboard",
+    DASHBOARD: "/admin/dashboard",
   },
-  LOGIN: "DangNhap",
-  REGISTER: "DangKy",
+  LOGIN: "/DangNhap",
+  REGISTER: "/DangKy",
 };

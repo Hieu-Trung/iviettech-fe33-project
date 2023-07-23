@@ -8,7 +8,7 @@ const Register = () => {
     <S.FormWrapper>
       <S.LoginFormWrapper>
         <S.TitleLoginWrapper>ĐĂNG KÝ</S.TitleLoginWrapper>
-        <Form layout="vertical" name="loginForm">
+        <Form layout="vertical" name="registerForm">
           <Form.Item
             style={{ color: "#ffffff" }}
             label="Tên tài khoản"

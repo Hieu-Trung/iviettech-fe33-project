@@ -13,6 +13,7 @@ export const HeaderWrapper = styled.div`
   height: 55px;
   background-color: #8c8c8c;
   border-bottom: 1px solid #bfbfbf;
+  z-index: 99;
 `;
 
 export const StyleWrapper = styled.div`

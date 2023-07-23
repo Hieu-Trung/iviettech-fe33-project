@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const BoxWrapper = styled.div`
   --border-size: 3px;
@@ -30,8 +31,12 @@ export const BoxWrapper = styled.div`
 `;
 
 export const TitleConstructionWrapper = styled.div`
-color: #ffffff;
-font-size: 20px;
-line-height: 25px;
-font-weight: 450;
-`
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 450;
+`;
+
+export const LinkWrapper = styled(Link)`
+  text-decoration: none;
+`;

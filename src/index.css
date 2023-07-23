@@ -74,6 +74,19 @@ code {
   line-height: 25px;
   font-weight: 500;
 }
-.anticon{
-  color: #ffffff !important;
+[title="Họ và tên"] {
+  color      : #ffffff !important;
+  font-size  : 17px !important;
+  line-height: 25px;
+  font-weight: 500;
+}[title="Địa chỉ"] {
+  color      : #ffffff !important;
+  font-size  : 17px !important;
+  line-height: 25px;
+  font-weight: 500;
+}[title="Yêu cầu"] {
+  color      : #ffffff !important;
+  font-size  : 17px !important;
+  line-height: 25px;
+  font-weight: 500;
 }

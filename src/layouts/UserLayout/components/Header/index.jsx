@@ -30,16 +30,16 @@ const Header = () => {
         <S.AboutWrapper>
           <EnvironmentOutlined />
           <S.DetailAboutWrapper>
-            <S.TitleWrapper>Trường sơn - Hòa Thọ Tây</S.TitleWrapper>
-            <S.TitleWrapper>Cẩm Lệ - Đà Nẵng</S.TitleWrapper>
+            <S.LinkWrapper to="http://surl.li/jijyr">
+              <S.TitleWrapper>Trường sơn - Hòa Thọ Tây</S.TitleWrapper>
+              <S.TitleWrapper>Cẩm Lệ - Đà Nẵng</S.TitleWrapper>
+            </S.LinkWrapper>
           </S.DetailAboutWrapper>
         </S.AboutWrapper>
         <S.LoginWrapper>
           <UserOutlined />
           <S.TitleWrapper>
-            <S.LinkWrapper to={ROUTES.LOGIN}>
-              Đăng Nhập
-            </S.LinkWrapper>
+            <S.LinkWrapper to={ROUTES.LOGIN}>Đăng Nhập</S.LinkWrapper>
           </S.TitleWrapper>
         </S.LoginWrapper>
       </S.StyleWrapper>
